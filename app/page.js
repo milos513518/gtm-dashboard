@@ -1,4 +1,4 @@
-import { getAllData } from "../lib/fetchData";
+import { getAllData } from "../lib/fetchData.js";
 import Dashboard from "./Dashboard";
 export const revalidate = 3600;
 export default async function Page() {
